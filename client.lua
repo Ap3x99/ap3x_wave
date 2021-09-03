@@ -11,11 +11,11 @@ end)
 Citizen.CreateThread(function()
     while true do
 		Wait(0)
-		Citizen.InvokeNative(0xB96B00E976BE977F, 3.5) --Controls deep ocean wave intensity
+		Citizen.InvokeNative(0xB96B00E976BE977F, 3.0) --Controls deep ocean wave intensity
 	end
 end)
 
---Set InvokeNative value to 3.5 because that's what I've found to be best for realistic calm ocean waves.
-
+--By default the value is set to 3.0 because that's what I've found to be best for realistic calm ocean waves.
+--Set it to 2.0 if you're using h4/heist4/mpheist4 or tuner/mptuner gamebuild. If you don't, Cayo Perico will be flooded in some parts.
 
 --Script Written by Ap3x_99 (https://forum.cfx.re/u/ap3x_99)
